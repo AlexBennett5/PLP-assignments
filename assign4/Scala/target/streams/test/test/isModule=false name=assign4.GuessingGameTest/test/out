@@ -1,0 +1,14 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mGuessingGameTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- canary[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- testCorrectGuessInOneAttempt[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- testGuessLowerThanSelectedNumber[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- testGuessHigherThanSelectedNumber[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- testGuessCorrectInTwoAttempts[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- testGuessReturnsTrueOnCorrectGuessWithOneAttempt[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- testGuessReturnsTrueOnCorrectGuessWithAnyAttempts[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- testGuessReturnsFalseOnIncorrectGuess[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- testPlayCorrectGuessInOneAttempt[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- testPlayLowerThenCorrectValueOnSecondAttempt[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- testPlayHigherThenCorrectValueOnSecondAttempt[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- testPlayLowerThenHigherThenCorrectValueOnThirdAttempt[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- testPlayHigherThenLowerThenCorrectValueOnThirdAttempt[0m[0m

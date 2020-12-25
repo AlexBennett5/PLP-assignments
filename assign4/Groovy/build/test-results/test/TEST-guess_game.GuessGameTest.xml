@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="guess_game.GuessGameTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2020-11-10T23:56:45" hostname="Alexs-MacBook-Pro.local" time="0.354">
+  <properties/>
+  <testcase name="test Canary" classname="guess_game.GuessGameTest" time="0.228"/>
+  <testcase name="correct guess in one attempt" classname="guess_game.GuessGameTest" time="0.069"/>
+  <testcase name="guess lower than selected number" classname="guess_game.GuessGameTest" time="0.001"/>
+  <testcase name="guess higher than selected number" classname="guess_game.GuessGameTest" time="0.001"/>
+  <testcase name="correct guess on second attempt" classname="guess_game.GuessGameTest" time="0.001"/>
+  <testcase name="guess returns true on correct guess on first attempt" classname="guess_game.GuessGameTest" time="0.002"/>
+  <testcase name="guess returns true on correct guess on any number of attempts" classname="guess_game.GuessGameTest" time="0.001"/>
+  <testcase name="guess returns false on incorrect guess" classname="guess_game.GuessGameTest" time="0.002"/>
+  <testcase name="play correct guess in one attempt" classname="guess_game.GuessGameTest" time="0.04"/>
+  <testcase name="play lower then correct guess on second attempt" classname="guess_game.GuessGameTest" time="0.003"/>
+  <testcase name="play higher then correct guess on second attempt" classname="guess_game.GuessGameTest" time="0.001"/>
+  <testcase name="play higher then higher then correct guess on third attempt" classname="guess_game.GuessGameTest" time="0.002"/>
+  <testcase name="play lower then higher then correct guess on third attempt" classname="guess_game.GuessGameTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

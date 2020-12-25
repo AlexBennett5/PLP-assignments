@@ -1,0 +1,16 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/alexbennett/Documents/Fall 2020/PLP/bennett_davidson/assign4/Scala/src/test/scala/GuessingGameTest.scala:74:23: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : response.type (with underlying type String)[0m
+[0m[[0m[31merror[0m] [0m[0m required: Nothing[0m
+[0m[[0m[31merror[0m] [0m[0m      received.append(response)[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/alexbennett/Documents/Fall 2020/PLP/bennett_davidson/assign4/Scala/src/test/scala/GuessingGameTest.scala:87:23: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : response.type (with underlying type String)[0m
+[0m[[0m[31merror[0m] [0m[0m required: Nothing[0m
+[0m[[0m[31merror[0m] [0m[0m      received.append(response)[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/alexbennett/Documents/Fall 2020/PLP/bennett_davidson/assign4/Scala/src/test/scala/GuessingGameTest.scala:100:23: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : response.type (with underlying type String)[0m
+[0m[[0m[31merror[0m] [0m[0m required: Nothing[0m
+[0m[[0m[31merror[0m] [0m[0m      received.append(response)[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

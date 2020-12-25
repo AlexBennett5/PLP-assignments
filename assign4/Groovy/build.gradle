@@ -1,0 +1,32 @@
+apply plugin: 'groovy'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile 'org.codehaus.groovy:groovy-all:3.0.5'
+	testCompile 'org.spockframework:spock-core:2.0-M3-groovy-3.0'
+}  
+
+sourceSets.main.groovy.srcDirs = ['src']
+sourceSets.test.groovy.srcDirs = ['test']
+
+test {
+    useJUnitPlatform()
+}
+
+task run(type: JavaExec) {
+    description 'Run Groovy script'
+ 
+    main = 'guess_game.PlayGame'
+	standardInput = System.in
+ 
+    classpath = sourceSets.main.runtimeClasspath
+ 
+    if (project.hasProperty('custom')) {
+        args project.getProperty('custom')
+    }
+}
+
+defaultTasks 'clean', 'test'
